@@ -1,0 +1,9 @@
+Introduce aqui las ordenes GIT para hacer las siguientes acciones:
+
+1) crear una nueva rama que se llame "ExamenTUNOMBRE". Si te llamas Maria Perez la rama seria ExamenMariaPerez
+
+2) comprobar que todo está actualizado en el servidor
+
+3) descargar los cambios del servidor
+
+4) actualizar el servidor con tus cambios.
