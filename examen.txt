@@ -1,9 +1,19 @@
-Introduce aqui las ordenes GIT para hacer las siguientes acciones:
+﻿Introduce aqui las ordenes GIT para hacer las siguientes acciones:
 
 1) crear una nueva rama que se llame "ExamenTUNOMBRE". Si te llamas Maria Perez la rama seria ExamenMariaPerez
 
-2) comprobar que todo está actualizado en el servidor
+	-Git checkout -b "ExamenRubénTijeras"
+
+2) comprobar que todo está actuzalizado en el servidor
+
+	-Git status
 
 3) descargar los cambios del servidor
 
+	-Git pull origin "Rama"
+
 4) actualizar el servidor con tus cambios.
+
+	-Git add .
+	-Git commit -m "comentario"
+	-Git push origin "Rama"
