@@ -2,16 +2,19 @@
 
 1) crear una nueva rama que se llame "ExamenTUNOMBRE". Si te llamas Maria Perez la rama seria ExamenMariaPerez
 
-git checkout -b ExamenIvanLopezPerez
+	git checkout -b ExamenIvanLopezPerez
 
 2) comprobar que todo está actualizado en el servidor
 
-git status
+	git status
 
 3) descargar los cambios del servidor
 
-git pull origin ExamenIvanLopezPerez
+	git pull origin ExamenIvanLopezPerez
 
 4) actualizar el servidor con tus cambios.
 
-git push origin ExamenIvanLopezPerez
+	git add .
+	git commit -m "Examen resuelto"
+	git status
+	git push origin ExamenIvanLopezPerez
