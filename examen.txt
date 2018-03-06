@@ -1,9 +1,21 @@
-Introduce aqui las ordenes GIT para hacer las siguientes acciones:
+﻿Introduce aqui las ordenes GIT para hacer las siguientes acciones:
 
 1) crear una nueva rama que se llame "ExamenTUNOMBRE". Si te llamas Maria Perez la rama seria ExamenMariaPerez
 
+git checkout -b ExamenDavidToralMoreno
+
+
 2) comprobar que todo está actualizado en el servidor
+
+git status
+
 
 3) descargar los cambios del servidor
 
+git pull origin ExamenDavidToralMoreno
+
+
 4) actualizar el servidor con tus cambios.
+git add examen.txt
+git commit -m "Subo mi examen (David Toral Moreno)
+git push origin ExamenDavidToralMoreno
